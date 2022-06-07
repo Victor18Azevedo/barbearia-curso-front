@@ -1,0 +1,51 @@
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0px;
+}
+
+.produtos li {
+	display: inline-block;	/* inline-block apresenta tamanho do conteudo podendo ter sua largura variavel*/
+	text-align: center;
+	width: 30%;
+	vertical-align: top;	/* por padrao, inline-block alinha pela linha de baixo*/
+	/*background: #CCCCCC;*/
+	margin: 0 1.5% ;
+	padding: 30px 20px;
+	box-sizing: border-box; /* paddings ficam fazendo parte do percental definido em width*/
+	/*
+	border-color: black;
+	border-width: 2px;
+	border-style: solid;
+	*/
+	border: 5px solid black;
+	border-radius: 0px 40px 0px 40px; 
+}
+
+.produtos li:hover {
+	border-color: #c78c19;
+}
+
+.produtos li:active {
+	border-color: green;
+}
+
+.produtos li:hover h2 {
+	font-size: 34px;
+}
+
+.produtos h2 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.produto-descricao {
+	font-size: 18px;
+}
+
+.produto-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px 0;
+
+}
