@@ -7,3 +7,6 @@ Modificações Realizadas:
 - Inclusão do rodapé padrão em todas as páginas;
 - realizado reset nas configurações inicias do navegador
 - Melhoria no visiual da da página **HOME**
+
+
+Em construção...
