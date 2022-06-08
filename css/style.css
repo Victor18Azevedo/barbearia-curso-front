@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Tapestry&display=swap');
+
+*{
+	text-decoration: none;
+}
+.cabecalho {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	padding: 24px;
+	background: #807d7d;
+}
+
+.cabecalho-logo {
+	height: 200px;
+
+}
+
+.cabecalho-lista {	
+	display: flex;
+	gap: 32px;
+}
+
+.cabecalho-lista-item {
+	font-family: 'Tapestry', cursive;
+	font-size: 22px;
+	font-weight: bold;
+	color: black;
+	
+}
+
+.cabecalho-lista-item:hover {		/*comportamento quando passar o mouse sobre item*/
+	font-size: 24px;
+	color: #c78c19;
+}
+
+#container-imagem {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+
+.conteudo {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-top: 5px solid #c78c19;	
+	justify-content: space-around;
+	padding: 50px;
+	/*background-image: url("/img/banner.jpg");*/
+ 	background-color: #cccccc;
+
+}
+
+.conteudo-principal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	border: 5px solid black;
+	border-radius: 0px 40px 0px 40px;
+	padding: 50px 50px;
+	margin-bottom: 20px;
+	background-color: #cccccc;
+}
+
+.conteudo-principal:hover {
+	border-color: #c78c19;
+}
+
+.conteudo-principal-titulo {
+	font-family: 'Tapestry', cursive;
+	font-weight: 600;
+	font-size: 32px;
+	margin-bottom: 5px;
+
+}
+
+.conteudo-principal-paragrafo {
+	font-family: 'Gilda Display', serif;
+	font-size: 22px;
+	font-weight: bold;
+	margin: 10px 0px;
+	text-align: center;
+
+
+}
+
+.conteudo-secundario {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	border: 5px solid black;
+	border-radius: 0px 40px 0px 40px;
+	padding: 30px 30px;
+	margin-bottom: 10px;
+	background-color: #cccccc;
+}
+
+.conteudo-secundario:hover {
+	border-color: #c78c19;
+}
+
+.conteudo-secundatrio-titulo {
+	font-family: 'Tapestry', cursive;
+	font-weight: 600;
+	font-size: 32px;
+	margin-bottom: 5px;
+}
+
+.conteudo-secundario-itens {
+	font-family: 'Gilda Display', serif;
+	font-weight: 600;
+	font-size: 20px;
+	margin: 5px 0px;
+
+}
+
+.rodape {
+	border-top: 5px solid #c78c19;
+	text-align: center;
+	background: black;
+	padding: 0 0px;
+}
+
+.rodape-logo{
+	height: 200px;
+}
+.rodape-copyright {	
+	color: white;
+	font-size: 12px;
+	padding: 20px;
+}
